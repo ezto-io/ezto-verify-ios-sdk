@@ -15,23 +15,10 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Vijay M R" => "vijay.mr@grootan.com" }
 
-  spec.source           = { :http => 'https://github.com/ezto-io/ezto-verify-ios-sdk' }
+  spec.source        = { :git => 'https://github.com/ezto-io/ezto-verify-ios-sdk.git', :tag => spec.version.to_s }
 
   #  When using multiple platforms
   spec.ios.deployment_target = "13.0"
 
-
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  spec.source_files  = "release/EztoVerify.xcframework", "release/EztoVerify.xcframework/**/*.{h,m}"
   spec.vendored_frameworks = "release/EztoVerify.xcframework"
-  
-
 end
