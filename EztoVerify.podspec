@@ -20,10 +20,6 @@ Pod::Spec.new do |spec|
   #  When using multiple platforms
   spec.ios.deployment_target = "13.0"
   spec.swift_versions = ['4.0']
-
-  spec.dependency 'CryptoSwift', '~> 1.8.3'
-  spec.dependency 'iProov', '~> 12.2.1'
-  spec.dependency 'Promises', '~> 2.0.4'
   
   spec.ios.vendored_frameworks = "release/EztoVerify.xcframework"
 end
