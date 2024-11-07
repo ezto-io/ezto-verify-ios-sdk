@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.description  = "ezto verify is a premier ID Verification solution that streamlines the processes of KYC, KYB, AML, Digital Onboarding, and E-signing, ensuring robust fraud prevention.  This application helps developers explore the capabilities of ezto verify in verifying valid ID cards, biometrics, FIDO, and other cutting-edge verification factors."
   spec.homepage         = 'https://ezto.io/verify'
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "Vijay M R" => "vijay.mr@grootan.com" }
+  spec.author       = { "ezto" => "support@ezto.io" }
 
   spec.source        = { :git => 'https://github.com/ezto-io/ezto-verify-ios-sdk.git', :tag => spec.version.to_s }
 

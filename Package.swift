@@ -25,7 +25,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "EztoVerify",
-            path: "./release/EztoVerify-Debug.xcframework.zip"
+            path: "./EztoVerify.xcframework"
         ),
         .target(
             name: "EztoVerifyIosSdk",
