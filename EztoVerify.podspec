@@ -21,5 +21,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
   spec.swift_versions = ['5.0']
 
-  spec.ios.vendored_frameworks = "release/EztoVerify.xcframework"
+  spec.source_files     = 'EztoVerify.xcframework'
+
+  spec.ios.vendored_frameworks = "EztoVerify.xcframework"
 end

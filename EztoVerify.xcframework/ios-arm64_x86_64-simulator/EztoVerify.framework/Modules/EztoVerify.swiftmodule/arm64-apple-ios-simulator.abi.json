@@ -1,0 +1,1547 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "EztoVerify",
+    "printedName": "EztoVerify",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Promises",
+        "printedName": "Promises",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "iProov",
+        "printedName": "iProov",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EztoVerifyApp",
+        "printedName": "EztoVerifyApp",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sdkInit",
+            "printedName": "sdkInit(with:forceUpdate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EztoVerifyService",
+                "printedName": "any EztoVerify.EztoVerifyService",
+                "usr": "c:@M@EztoVerify@objc(pl)EztoVerifyService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EztoVerify@objc(cs)EztoVerifyApp(im)sdkInitWith:forceUpdate:",
+            "mangledName": "$s10EztoVerify0aB3AppC7sdkInit4with11forceUpdateyAA0aB7Service_p_SbtF",
+            "moduleName": "EztoVerify",
+            "objc_name": "sdkInitWith:forceUpdate:",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPushReceived",
+            "printedName": "onPushReceived(data:with:encryptionKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EztoVerifyService",
+                "printedName": "any EztoVerify.EztoVerifyService",
+                "usr": "c:@M@EztoVerify@objc(pl)EztoVerifyService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EztoVerify@objc(cs)EztoVerifyApp(im)onPushReceivedWithData:with:encryptionKey:",
+            "mangledName": "$s10EztoVerify0aB3AppC14onPushReceived4data4with13encryptionKeyySDys11AnyHashableVypG_AA0aB7Service_pSSSgtF",
+            "moduleName": "EztoVerify",
+            "objc_name": "onPushReceivedWithData:with:encryptionKey:",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchQrScanner",
+            "printedName": "launchQrScanner(with:encryptionKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EztoVerifyService",
+                "printedName": "any EztoVerify.EztoVerifyService",
+                "usr": "c:@M@EztoVerify@objc(pl)EztoVerifyService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EztoVerify@objc(cs)EztoVerifyApp(im)launchQrScannerWith:encryptionKey:",
+            "mangledName": "$s10EztoVerify0aB3AppC15launchQrScanner4with13encryptionKeyyAA0aB7Service_p_SSSgtF",
+            "moduleName": "EztoVerify",
+            "objc_name": "launchQrScannerWith:encryptionKey:",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDeeplinkRequest",
+            "printedName": "onDeeplinkRequest(with:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EztoVerifyService",
+                "printedName": "any EztoVerify.EztoVerifyService",
+                "usr": "c:@M@EztoVerify@objc(pl)EztoVerifyService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EztoVerify@objc(cs)EztoVerifyApp(im)onDeeplinkRequestWith:url:",
+            "mangledName": "$s10EztoVerify0aB3AppC17onDeeplinkRequest4with3urlyAA0aB7Service_p_SStF",
+            "moduleName": "EztoVerify",
+            "objc_name": "onDeeplinkRequestWith:url:",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EztoVerifyApp",
+                "printedName": "EztoVerify.EztoVerifyApp",
+                "usr": "c:@M@EztoVerify@objc(cs)EztoVerifyApp"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@EztoVerify@objc(cs)EztoVerifyApp(im)initWithNibName:bundle:",
+            "mangledName": "$s10EztoVerify0aB3AppC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "EztoVerify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "EztoVerify.EztoVerifyApp?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EztoVerifyApp",
+                    "printedName": "EztoVerify.EztoVerifyApp",
+                    "usr": "c:@M@EztoVerify@objc(cs)EztoVerifyApp"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@EztoVerify@objc(cs)EztoVerifyApp(im)initWithCoder:",
+            "mangledName": "$s10EztoVerify0aB3AppC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "EztoVerify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@EztoVerify@objc(cs)EztoVerifyApp",
+        "mangledName": "$s10EztoVerify0aB3AppC",
+        "moduleName": "EztoVerify",
+        "objc_name": "EztoVerifyApp",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoSwift",
+        "printedName": "CryptoSwift",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EztoVerifyService",
+        "printedName": "EztoVerifyService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onPushTokenRequest",
+            "printedName": "onPushTokenRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EztoVerify@objc(pl)EztoVerifyService(im)onPushTokenRequest",
+            "mangledName": "$s10EztoVerify0aB7ServiceP18onPushTokenRequestSSSgyF",
+            "moduleName": "EztoVerify",
+            "genericSig": "<τ_0_0 where τ_0_0 : EztoVerify.EztoVerifyService>",
+            "sugared_genericSig": "<Self where Self : EztoVerify.EztoVerifyService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onResult",
+            "printedName": "onResult(reqId:authReqId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EztoVerify@objc(pl)EztoVerifyService(im)onResultWithReqId:authReqId:",
+            "mangledName": "$s10EztoVerify0aB7ServiceP8onResult5reqId07authReqG0ySS_SStF",
+            "moduleName": "EztoVerify",
+            "genericSig": "<τ_0_0 where τ_0_0 : EztoVerify.EztoVerifyService>",
+            "sugared_genericSig": "<Self where Self : EztoVerify.EztoVerifyService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EztoVerify@objc(pl)EztoVerifyService(im)onErrorWithError:",
+            "mangledName": "$s10EztoVerify0aB7ServiceP7onError5errorySS_tF",
+            "moduleName": "EztoVerify",
+            "genericSig": "<τ_0_0 where τ_0_0 : EztoVerify.EztoVerifyService>",
+            "sugared_genericSig": "<Self where Self : EztoVerify.EztoVerifyService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClosed",
+            "printedName": "onClosed(reason:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EztoVerify@objc(pl)EztoVerifyService(im)onClosedWithReason:",
+            "mangledName": "$s10EztoVerify0aB7ServiceP8onClosed6reasonySS_tF",
+            "moduleName": "EztoVerify",
+            "genericSig": "<τ_0_0 where τ_0_0 : EztoVerify.EztoVerifyService>",
+            "sugared_genericSig": "<Self where Self : EztoVerify.EztoVerifyService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTransactionRequest",
+            "printedName": "onTransactionRequest(payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EztoVerify@objc(pl)EztoVerifyService(im)onTransactionRequestWithPayload:",
+            "mangledName": "$s10EztoVerify0aB7ServiceP20onTransactionRequest7payloadyyp_tF",
+            "moduleName": "EztoVerify",
+            "genericSig": "<τ_0_0 where τ_0_0 : EztoVerify.EztoVerifyService>",
+            "sugared_genericSig": "<Self where Self : EztoVerify.EztoVerifyService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@EztoVerify@objc(pl)EztoVerifyService",
+        "mangledName": "$s10EztoVerify0aB7ServiceP",
+        "moduleName": "EztoVerify",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "EztoVerifyService",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SocketIO",
+        "printedName": "SocketIO",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Starscream",
+        "printedName": "Starscream",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Promises",
+        "printedName": "Promises",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "iProov",
+        "printedName": "iProov",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iProov",
+        "printedName": "iProov",
+        "declKind": "Import",
+        "moduleName": "EztoVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Promises",
+        "printedName": "Promises",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EztoVerify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Service\/CustomSchemeService.swift",
+      "kind": "Array",
+      "offset": 172,
+      "length": 25,
+      "value": "[\"uaepass\", \"uaepassstg\"]"
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Controller\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 682,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/EztoVerifyApp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 228,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/EztoVerifyApp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 267,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Enums\/SocketConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 162,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Enums\/SocketConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 187,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Enums\/SocketConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 3,
+      "value": "205"
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Enums\/SocketConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 3,
+      "value": "403"
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/SystemServiceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/AshieldResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 553,
+      "length": 19,
+      "value": "\"authTransactionId\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/AshieldResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 18,
+      "value": "\"regTransactionId\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/RegisterSilentBindingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 19,
+      "value": "\"encryptedDeviceId\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Controller\/QRScannerController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 421,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/FidoResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1963,
+      "length": 7,
+      "value": "\"rawId\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/FidoVerifyRequestModel.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 6,
+      "value": "\"rpId\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Controller\/FidoController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 314,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Controller\/FidoController.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 31,
+      "value": "\"Use IOS Version more than 15!\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Controller\/FidoController.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 22,
+      "value": "\"platformNotSupported\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Service\/PayloadDataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3034,
+      "length": 11,
+      "value": "\"requestId\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/LoadSekuraUrlModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1805,
+      "length": 13,
+      "value": "\"status_code\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Helper\/GlobalService.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Service\/WebSocketService.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/FidoRegRequestModel.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 12,
+      "value": "\"rpEntityId\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/FidoRegRequestModel.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/FidoRegisterResultModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2169,
+      "length": 7,
+      "value": "\"rawId\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/RegisteredBiometricModel.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 15,
+      "value": "\"credentialIds\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/RegisteredBiometricModel.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Model\/VerifyBiometricModel.swift",
+      "kind": "StringLiteral",
+      "offset": 589,
+      "length": 14,
+      "value": "\"credentialId\""
+    },
+    {
+      "filePath": "\/Users\/vijaymr\/ezto-verify\/qlikverify_authenticator_sdk_ios\/qlikverify-sdk\/EztoVerify\/Api\/WebSocketStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 242,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

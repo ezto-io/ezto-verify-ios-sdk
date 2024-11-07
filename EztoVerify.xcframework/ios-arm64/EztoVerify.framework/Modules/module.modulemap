@@ -1,0 +1,11 @@
+framework module EztoVerify {
+  umbrella header "EztoVerify.h"
+  export *
+
+  module * { export * }
+}
+
+module EztoVerify.Swift {
+  header "EztoVerify-Swift.h"
+  requires objc
+}
