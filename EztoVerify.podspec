@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.dependency "CryptoSwift", "~> 1.8.3"
   spec.dependency "iProov", "~> 12.2.1"
   spec.dependency "PromisesObjC", "~> 2.4.0"
-  spec.dependency "Socket.IO-Client-Swift"
+  spec.dependency "Socket.IO-Client-Swift", "~> 16.1.1"
 
   spec.ios.vendored_frameworks = "EztoVerify.xcframework"
 end
