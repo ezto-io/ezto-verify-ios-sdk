@@ -1,14 +1,16 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name EztoVerify
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name EztoVerify
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AuthenticationServices
 import Combine
 import CommonCrypto
 import CoreLocation
+import CoreNFC
 import CryptoKit
 @_exported import EztoVerify
+import EztoVerifyCoreFFI
 import Foundation
 import LocalAuthentication
 import Network
@@ -16,6 +18,7 @@ import Swift
 import UIKit
 import WebKit
 import _Concurrency
+import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 import iProov
@@ -35,3 +38,358 @@ import iProov
   @objc func onClosed(reason: Swift.String)
   @objc func onTransactionRequest(payload: Any)
 }
+public struct AuthenticateEv2FirstPart1Apdu {
+  public var result: EztoVerify.NfcResult
+  public var apdu: EztoVerify.InputData
+  public init(result: EztoVerify.NfcResult, apdu: EztoVerify.InputData)
+}
+extension EztoVerify.AuthenticateEv2FirstPart1Apdu : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.AuthenticateEv2FirstPart1Apdu, rhs: EztoVerify.AuthenticateEv2FirstPart1Apdu) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeAuthenticateEv2FirstPart1Apdu {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.AuthenticateEv2FirstPart1Apdu
+  public static func write(_ value: EztoVerify.AuthenticateEv2FirstPart1Apdu, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeAuthenticateEv2FirstPart1Apdu_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.AuthenticateEv2FirstPart1Apdu
+@_documentation(visibility: private) public func FfiConverterTypeAuthenticateEv2FirstPart1Apdu_lower(_ value: EztoVerify.AuthenticateEv2FirstPart1Apdu) -> EztoVerifyCoreFFI.RustBuffer
+public struct AuthenticateEv2FirstPart1Reponse {
+  public var result: EztoVerify.NfcResult
+  public var responseCode: EztoVerify.InputData
+  public var rndB: EztoVerify.InputData
+  public init(result: EztoVerify.NfcResult, responseCode: EztoVerify.InputData, rndB: EztoVerify.InputData)
+}
+extension EztoVerify.AuthenticateEv2FirstPart1Reponse : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.AuthenticateEv2FirstPart1Reponse, rhs: EztoVerify.AuthenticateEv2FirstPart1Reponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeAuthenticateEv2FirstPart1Reponse {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.AuthenticateEv2FirstPart1Reponse
+  public static func write(_ value: EztoVerify.AuthenticateEv2FirstPart1Reponse, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeAuthenticateEv2FirstPart1Reponse_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.AuthenticateEv2FirstPart1Reponse
+@_documentation(visibility: private) public func FfiConverterTypeAuthenticateEv2FirstPart1Reponse_lower(_ value: EztoVerify.AuthenticateEv2FirstPart1Reponse) -> EztoVerifyCoreFFI.RustBuffer
+public struct AuthenticateEv2FirstPart2Apdu {
+  public var result: EztoVerify.NfcResult
+  public var apdu: EztoVerify.InputData
+  public init(result: EztoVerify.NfcResult, apdu: EztoVerify.InputData)
+}
+extension EztoVerify.AuthenticateEv2FirstPart2Apdu : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.AuthenticateEv2FirstPart2Apdu, rhs: EztoVerify.AuthenticateEv2FirstPart2Apdu) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeAuthenticateEv2FirstPart2Apdu {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.AuthenticateEv2FirstPart2Apdu
+  public static func write(_ value: EztoVerify.AuthenticateEv2FirstPart2Apdu, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeAuthenticateEv2FirstPart2Apdu_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.AuthenticateEv2FirstPart2Apdu
+@_documentation(visibility: private) public func FfiConverterTypeAuthenticateEv2FirstPart2Apdu_lower(_ value: EztoVerify.AuthenticateEv2FirstPart2Apdu) -> EztoVerifyCoreFFI.RustBuffer
+public struct AuthenticateEv2FirstPart2Reponse {
+  public var result: EztoVerify.NfcResult
+  public var responseCode: EztoVerify.InputData
+  public var transactionId: EztoVerify.InputData
+  public var encSessionKey: EztoVerify.InputData
+  public var macSessionsKey: EztoVerify.InputData
+  public init(result: EztoVerify.NfcResult, responseCode: EztoVerify.InputData, transactionId: EztoVerify.InputData, encSessionKey: EztoVerify.InputData, macSessionsKey: EztoVerify.InputData)
+}
+extension EztoVerify.AuthenticateEv2FirstPart2Reponse : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.AuthenticateEv2FirstPart2Reponse, rhs: EztoVerify.AuthenticateEv2FirstPart2Reponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeAuthenticateEv2FirstPart2Reponse {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.AuthenticateEv2FirstPart2Reponse
+  public static func write(_ value: EztoVerify.AuthenticateEv2FirstPart2Reponse, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeAuthenticateEv2FirstPart2Reponse_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.AuthenticateEv2FirstPart2Reponse
+@_documentation(visibility: private) public func FfiConverterTypeAuthenticateEv2FirstPart2Reponse_lower(_ value: EztoVerify.AuthenticateEv2FirstPart2Reponse) -> EztoVerifyCoreFFI.RustBuffer
+public struct ChangeFileSettingsApdu {
+  public var apdu: EztoVerify.InputData
+  public var result: EztoVerify.NfcResult
+  public init(apdu: EztoVerify.InputData, result: EztoVerify.NfcResult)
+}
+extension EztoVerify.ChangeFileSettingsApdu : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.ChangeFileSettingsApdu, rhs: EztoVerify.ChangeFileSettingsApdu) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeChangeFileSettingsApdu {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.ChangeFileSettingsApdu
+  public static func write(_ value: EztoVerify.ChangeFileSettingsApdu, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeChangeFileSettingsApdu_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.ChangeFileSettingsApdu
+@_documentation(visibility: private) public func FfiConverterTypeChangeFileSettingsApdu_lower(_ value: EztoVerify.ChangeFileSettingsApdu) -> EztoVerifyCoreFFI.RustBuffer
+public struct ChangeFileSettingsResponse {
+  public var result: EztoVerify.NfcResult
+  public init(result: EztoVerify.NfcResult)
+}
+extension EztoVerify.ChangeFileSettingsResponse : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.ChangeFileSettingsResponse, rhs: EztoVerify.ChangeFileSettingsResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeChangeFileSettingsResponse {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.ChangeFileSettingsResponse
+  public static func write(_ value: EztoVerify.ChangeFileSettingsResponse, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeChangeFileSettingsResponse_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.ChangeFileSettingsResponse
+@_documentation(visibility: private) public func FfiConverterTypeChangeFileSettingsResponse_lower(_ value: EztoVerify.ChangeFileSettingsResponse) -> EztoVerifyCoreFFI.RustBuffer
+public struct ChangeMasterKeyApdu {
+  public var apdu: EztoVerify.InputData
+  public var result: EztoVerify.NfcResult
+  public init(apdu: EztoVerify.InputData, result: EztoVerify.NfcResult)
+}
+extension EztoVerify.ChangeMasterKeyApdu : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.ChangeMasterKeyApdu, rhs: EztoVerify.ChangeMasterKeyApdu) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeChangeMasterKeyApdu {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.ChangeMasterKeyApdu
+  public static func write(_ value: EztoVerify.ChangeMasterKeyApdu, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeChangeMasterKeyApdu_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.ChangeMasterKeyApdu
+@_documentation(visibility: private) public func FfiConverterTypeChangeMasterKeyApdu_lower(_ value: EztoVerify.ChangeMasterKeyApdu) -> EztoVerifyCoreFFI.RustBuffer
+public struct ChangeMasterKeyResponse {
+  public var result: EztoVerify.NfcResult
+  public init(result: EztoVerify.NfcResult)
+}
+extension EztoVerify.ChangeMasterKeyResponse : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.ChangeMasterKeyResponse, rhs: EztoVerify.ChangeMasterKeyResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeChangeMasterKeyResponse {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.ChangeMasterKeyResponse
+  public static func write(_ value: EztoVerify.ChangeMasterKeyResponse, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeChangeMasterKeyResponse_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.ChangeMasterKeyResponse
+@_documentation(visibility: private) public func FfiConverterTypeChangeMasterKeyResponse_lower(_ value: EztoVerify.ChangeMasterKeyResponse) -> EztoVerifyCoreFFI.RustBuffer
+public struct GetFileSettingsApdu {
+  public var apdu: EztoVerify.InputData
+  public var result: EztoVerify.NfcResult
+  public init(apdu: EztoVerify.InputData, result: EztoVerify.NfcResult)
+}
+extension EztoVerify.GetFileSettingsApdu : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.GetFileSettingsApdu, rhs: EztoVerify.GetFileSettingsApdu) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeGetFileSettingsApdu {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.GetFileSettingsApdu
+  public static func write(_ value: EztoVerify.GetFileSettingsApdu, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeGetFileSettingsApdu_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.GetFileSettingsApdu
+@_documentation(visibility: private) public func FfiConverterTypeGetFileSettingsApdu_lower(_ value: EztoVerify.GetFileSettingsApdu) -> EztoVerifyCoreFFI.RustBuffer
+public struct GetFileSettingsResponse {
+  public var result: EztoVerify.NfcResult
+  public init(result: EztoVerify.NfcResult)
+}
+extension EztoVerify.GetFileSettingsResponse : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.GetFileSettingsResponse, rhs: EztoVerify.GetFileSettingsResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeGetFileSettingsResponse {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.GetFileSettingsResponse
+  public static func write(_ value: EztoVerify.GetFileSettingsResponse, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeGetFileSettingsResponse_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.GetFileSettingsResponse
+@_documentation(visibility: private) public func FfiConverterTypeGetFileSettingsResponse_lower(_ value: EztoVerify.GetFileSettingsResponse) -> EztoVerifyCoreFFI.RustBuffer
+public struct GetUidApdu {
+  public var apdu: EztoVerify.InputData
+  public var result: EztoVerify.NfcResult
+  public init(apdu: EztoVerify.InputData, result: EztoVerify.NfcResult)
+}
+extension EztoVerify.GetUidApdu : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.GetUidApdu, rhs: EztoVerify.GetUidApdu) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeGetUidApdu {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.GetUidApdu
+  public static func write(_ value: EztoVerify.GetUidApdu, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeGetUidApdu_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.GetUidApdu
+@_documentation(visibility: private) public func FfiConverterTypeGetUidApdu_lower(_ value: EztoVerify.GetUidApdu) -> EztoVerifyCoreFFI.RustBuffer
+public struct GuidResponse {
+  public var result: EztoVerify.NfcResult
+  public var uid: EztoVerify.InputData
+  public var errorCode: EztoVerify.InputData
+  public init(result: EztoVerify.NfcResult, uid: EztoVerify.InputData, errorCode: EztoVerify.InputData)
+}
+extension EztoVerify.GuidResponse : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.GuidResponse, rhs: EztoVerify.GuidResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeGuidResponse {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.GuidResponse
+  public static func write(_ value: EztoVerify.GuidResponse, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeGuidResponse_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.GuidResponse
+@_documentation(visibility: private) public func FfiConverterTypeGuidResponse_lower(_ value: EztoVerify.GuidResponse) -> EztoVerifyCoreFFI.RustBuffer
+public struct InputData {
+  public var bytes: [Swift.UInt8]
+  public init(bytes: [Swift.UInt8])
+}
+extension EztoVerify.InputData : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.InputData, rhs: EztoVerify.InputData) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeInputData {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.InputData
+  public static func write(_ value: EztoVerify.InputData, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeInputData_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.InputData
+@_documentation(visibility: private) public func FfiConverterTypeInputData_lower(_ value: EztoVerify.InputData) -> EztoVerifyCoreFFI.RustBuffer
+public struct IsoSelectFileApdu {
+  public var apdu: EztoVerify.InputData
+  public init(apdu: EztoVerify.InputData)
+}
+extension EztoVerify.IsoSelectFileApdu : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.IsoSelectFileApdu, rhs: EztoVerify.IsoSelectFileApdu) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeIsoSelectFileApdu {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.IsoSelectFileApdu
+  public static func write(_ value: EztoVerify.IsoSelectFileApdu, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeIsoSelectFileApdu_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.IsoSelectFileApdu
+@_documentation(visibility: private) public func FfiConverterTypeIsoSelectFileApdu_lower(_ value: EztoVerify.IsoSelectFileApdu) -> EztoVerifyCoreFFI.RustBuffer
+public struct IsoSelectFileResponse {
+  public var result: EztoVerify.NfcResult
+  public var responseCode: EztoVerify.InputData
+  public init(result: EztoVerify.NfcResult, responseCode: EztoVerify.InputData)
+}
+extension EztoVerify.IsoSelectFileResponse : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.IsoSelectFileResponse, rhs: EztoVerify.IsoSelectFileResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeIsoSelectFileResponse {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.IsoSelectFileResponse
+  public static func write(_ value: EztoVerify.IsoSelectFileResponse, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeIsoSelectFileResponse_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.IsoSelectFileResponse
+@_documentation(visibility: private) public func FfiConverterTypeIsoSelectFileResponse_lower(_ value: EztoVerify.IsoSelectFileResponse) -> EztoVerifyCoreFFI.RustBuffer
+public struct NdefTemplate {
+  public var apdu: EztoVerify.InputData
+  public var result: EztoVerify.NfcResult
+  public var piccOffset: Swift.UInt8
+  public var macOffset: Swift.UInt8
+  public init(apdu: EztoVerify.InputData, result: EztoVerify.NfcResult, piccOffset: Swift.UInt8, macOffset: Swift.UInt8)
+}
+extension EztoVerify.NdefTemplate : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.NdefTemplate, rhs: EztoVerify.NdefTemplate) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeNdefTemplate {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.NdefTemplate
+  public static func write(_ value: EztoVerify.NdefTemplate, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeNdefTemplate_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.NdefTemplate
+@_documentation(visibility: private) public func FfiConverterTypeNdefTemplate_lower(_ value: EztoVerify.NdefTemplate) -> EztoVerifyCoreFFI.RustBuffer
+public struct WriteNdefResponse {
+  public var result: EztoVerify.NfcResult
+  public init(result: EztoVerify.NfcResult)
+}
+extension EztoVerify.WriteNdefResponse : Swift.Equatable, Swift.Hashable {
+  public static func == (lhs: EztoVerify.WriteNdefResponse, rhs: EztoVerify.WriteNdefResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_documentation(visibility: private) public struct FfiConverterTypeWriteNdefResponse {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.WriteNdefResponse
+  public static func write(_ value: EztoVerify.WriteNdefResponse, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeWriteNdefResponse_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.WriteNdefResponse
+@_documentation(visibility: private) public func FfiConverterTypeWriteNdefResponse_lower(_ value: EztoVerify.WriteNdefResponse) -> EztoVerifyCoreFFI.RustBuffer
+public enum NfcResult {
+  case success
+  case nfcNotAvailable
+  case scanFailed
+  case isoSelectFileFailed
+  case authEv2Part1Failed
+  case authEv2Part2Failed
+  case getUidFailed
+  case getUidMacMistmatch
+  case authEv2Part2RndAMismatch
+  case changeKeyFailed
+  case getFileSettingsFailed
+  case changeFileSettingsFailed
+  case encryptionPadError
+  case decryptionPadError
+  case cmacError
+  case ndefWriteError
+}
+@_documentation(visibility: private) public struct FfiConverterTypeNfcResult {
+  public static func read(from buf: inout (data: Foundation.Data, offset: Foundation.Data.Index)) throws -> EztoVerify.NfcResult
+  public static func write(_ value: EztoVerify.NfcResult, into buf: inout [Swift.UInt8])
+}
+@_documentation(visibility: private) public func FfiConverterTypeNfcResult_lift(_ buf: EztoVerifyCoreFFI.RustBuffer) throws -> EztoVerify.NfcResult
+@_documentation(visibility: private) public func FfiConverterTypeNfcResult_lower(_ value: EztoVerify.NfcResult) -> EztoVerifyCoreFFI.RustBuffer
+extension EztoVerify.NfcResult : Swift.Equatable, Swift.Hashable {
+  public static func == (a: EztoVerify.NfcResult, b: EztoVerify.NfcResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public func authenticateEv2FirstPart1() -> EztoVerify.AuthenticateEv2FirstPart1Apdu
+public func authenticateEv2FirstPart2(rndA: EztoVerify.InputData, rndB: EztoVerify.InputData, key: EztoVerify.InputData, iv: EztoVerify.InputData) -> EztoVerify.AuthenticateEv2FirstPart2Apdu
+public func changeFileSettings(piccOffset: Swift.UInt8, macOffset: Swift.UInt8, encSessionKey: EztoVerify.InputData, macSessionKey: EztoVerify.InputData, transactionId: EztoVerify.InputData) -> EztoVerify.ChangeFileSettingsApdu
+public func changeMasterKey(newKey: EztoVerify.InputData, transactionId: EztoVerify.InputData, cmdCounter: EztoVerify.InputData, encSessionKey: EztoVerify.InputData, cmacSessionKey: EztoVerify.InputData) -> EztoVerify.ChangeMasterKeyApdu
+public func generateKey() -> EztoVerify.InputData
+public func getFileSettings(cmdCounter: EztoVerify.InputData, tid: EztoVerify.InputData, macKey: EztoVerify.InputData) -> EztoVerify.GetFileSettingsApdu
+public func getUid(cmacSessionKey: EztoVerify.InputData, transactionId: EztoVerify.InputData, cmdCounter: EztoVerify.InputData) -> EztoVerify.GetUidApdu
+public func isoSelectFile() -> EztoVerify.IsoSelectFileApdu
+public func validateAuthenticateEv2FirstPart1(authenticateEv2FirstPart1Reponse: EztoVerify.InputData, key: EztoVerify.InputData, iv: EztoVerify.InputData) -> EztoVerify.AuthenticateEv2FirstPart1Reponse
+public func validateAuthenticateEv2FirstPart2(authenticateEv2FirstPart2Result: EztoVerify.InputData, key: EztoVerify.InputData, iv: EztoVerify.InputData, rndA: EztoVerify.InputData, rndB: EztoVerify.InputData) -> EztoVerify.AuthenticateEv2FirstPart2Reponse
+public func validateChangeFileSettings(changeFileSettingsResponse: EztoVerify.InputData) -> EztoVerify.ChangeFileSettingsResponse
+public func validateChangeMasterKey(changeMasterKeyResult: EztoVerify.InputData) -> EztoVerify.ChangeMasterKeyResponse
+public func validateGetFileSettings(getFileSettingsResponse: EztoVerify.InputData) -> EztoVerify.GetFileSettingsResponse
+public func validateGetUid(getUidResult: EztoVerify.InputData, transactionId: EztoVerify.InputData, encSessionKey: EztoVerify.InputData, cmacSessionKey: EztoVerify.InputData, cmdCounter: EztoVerify.InputData) -> EztoVerify.GuidResponse
+public func validateIsoSelectFileResponse(isoSelectFileResponse: EztoVerify.InputData) -> EztoVerify.IsoSelectFileResponse
+public func validateWriteNdef(writeNdefResult: EztoVerify.InputData) -> EztoVerify.WriteNdefResponse
+public func writeNdef(urlBytes: EztoVerify.InputData) -> EztoVerify.NdefTemplate
