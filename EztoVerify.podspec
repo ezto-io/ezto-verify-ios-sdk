@@ -26,5 +26,8 @@ Pod::Spec.new do |spec|
   spec.dependency "PromisesObjC", "~> 2.4.0"
   spec.dependency "Socket.IO-Client-Swift", "~> 16.1.1"
 
-  spec.ios.vendored_frameworks = "EztoVerifyCoreFFI.xcframework", "EztoVerify.xcframework"
+  spec.ios.vendored_frameworks = [
+    "EztoVerify.xcframework", 
+    "EztoVerifyCore.xcframework"
+  ]
 end
