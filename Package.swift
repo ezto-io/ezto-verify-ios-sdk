@@ -27,10 +27,15 @@ let package = Package(
             name: "EztoVerify",
             path: "./EztoVerify.xcframework"
         ),
+        .binaryTarget(
+            name: "EztoVerifyCore",
+            path: "./EztoVerifyCore.xcframework"
+        ),
         .target(
             name: "EztoVerifyIosSdk",
             dependencies: [
                 .target(name: "EztoVerify"),
+                .target(name: "EztoVerifyCore"),
                 "CryptoSwift",
                 .product(name: "iProov", package: "ios"),
                 .product(name: "Promises", package: "promises"),

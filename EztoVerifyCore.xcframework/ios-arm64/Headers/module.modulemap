@@ -1,0 +1,4 @@
+module EztoVerifyCoreFFI {
+    header "EztoVerifyCoreFFI.h"
+    export *
+}
