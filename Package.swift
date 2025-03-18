@@ -35,7 +35,7 @@ let package = Package(
             name: "EztoVerifyIosSdk",
             dependencies: [
                 .target(name: "EztoVerify"),
-                .target(name: "EztoVerifyCore"),
+                "EztoVerifyCore",
                 "CryptoSwift",
                 .product(name: "iProov", package: "ios"),
                 .product(name: "Promises", package: "promises"),
