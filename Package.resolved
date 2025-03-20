@@ -1,5 +1,5 @@
 {
-  "originHash" : "5824847f3a689f524668c2037e045c8513fdaafec3f6fce43958a2533196d254",
+  "originHash" : "719061b2133a4f3e3996b86b1ac53a72f363178701c4f79e12f0335fd9c0c050",
   "pins" : [
     {
       "identity" : "cryptoswift",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "678d442c6f7828def400a70ae15968aef67ef52d",
         "version" : "1.8.3"
+      }
+    },
+    {
+      "identity" : "ezto-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/VijayMR-97/ezto-core",
+      "state" : {
+        "branch" : "master",
+        "revision" : "3035659c595c1dab05da93bb7511c089c036d485"
       }
     },
     {

@@ -18,7 +18,8 @@ let package = Package(
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift", .upToNextMajor(from: "1.8.3")),
         .package(url: "https://github.com/iProov/ios", .upToNextMajor(from: "12.2.1")),
         .package(url: "https://github.com/google/promises", .upToNextMajor(from: "2.4.0")),
-        .package(url: "https://github.com/socketio/socket.io-client-swift", branch: "master")
+        .package(url: "https://github.com/socketio/socket.io-client-swift", branch: "master"),
+        .package(url: "https://github.com/VijayMR-97/ezto-core", branch: "master")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -27,20 +28,16 @@ let package = Package(
             name: "EztoVerify",
             path: "./EztoVerify.xcframework"
         ),
-        .binaryTarget(
-            name: "EztoVerifyCore",
-            path: "./EztoVerifyCore.xcframework"
-        ),
         .target(
             name: "EztoVerifyIosSdk",
             dependencies: [
                 .target(name: "EztoVerify"),
-                "EztoVerifyCore",
                 "CryptoSwift",
                 .product(name: "iProov", package: "ios"),
                 .product(name: "Promises", package: "promises"),
                 .product(name: "FBLPromises", package: "promises"),
                 .product(name: "SocketIO", package: "socket.io-client-swift"),
+                .product(name: "EztoCore", package: "ezto-core")
             ]
         ),
     ]

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "EztoVerify"
-  spec.version      = "3.0.0"
+  spec.version      = "3.1.0"
   spec.summary      = "A framework for verifying users with EztoVerify solutions."
   spec.description  = "ezto verify is a premier ID Verification solution that streamlines the processes of KYC, KYB, AML, Digital Onboarding, and E-signing, ensuring robust fraud prevention.  This application helps developers explore the capabilities of ezto verify in verifying valid ID cards, biometrics, FIDO, and other cutting-edge verification factors."
   spec.homepage         = 'https://ezto.io/verify'
