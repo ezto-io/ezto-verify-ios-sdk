@@ -36,7 +36,8 @@ let package = Package(
                 .product(name: "FBLPromises", package: "promises"),
                 .product(name: "SocketIO", package: "socket.io-client-swift"),
                 .product(name: "EztoCore", package: "ezto-core")
-            ]
+            ],
+            path: "Sources"
         ),
     ]
 )
