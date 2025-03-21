@@ -201,19 +201,19 @@
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		bBEFs/pdrKt1vKTnGrMGoQ+rp40=
+		2wtrDFjYIr+70P8dZU7Pi9o1WBI=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Qbyybk9XbFyFYlhzHS8T8cCq+UY=
+		TFJKSw+tWlhVdNCZ03k/XvFLXwo=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lM5y1R/V+btZYTQlz1v/Ga/N4u8=
+		laRb56uNznqbsI3KLNnEvqAp0NY=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YAg5ddjfYICnZuW/8SG16oVK9zA=
+		PCzU+KL+UcoG6Ed2oN//RASMrZU=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -221,19 +221,19 @@
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YAg5ddjfYICnZuW/8SG16oVK9zA=
+		PCzU+KL+UcoG6Ed2oN//RASMrZU=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F699L6FNLZvUfvRPa1HxZC326o8=
+		PGAQDeYvMLlzOhHpwJRf9qnY7kk=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lM5y1R/V+btZYTQlz1v/Ga/N4u8=
+		laRb56uNznqbsI3KLNnEvqAp0NY=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		oL/bakSX7a6FpFnDQVLsvKXWzsc=
+		pVHgJOGwOK6DsHeyw61DFSIljTU=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -241,11 +241,11 @@
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oL/bakSX7a6FpFnDQVLsvKXWzsc=
+		pVHgJOGwOK6DsHeyw61DFSIljTU=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		af8H8kp4xjRyKvD7MKg+rTAqx+o=
+		UkU/tGskhRVkPaMWw+rDE9P8FHA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -491,28 +491,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SeR5M7gU3KXTWr/ICXGE3+gUABFO6De4xy0Tlk+Eszo=
+			FQlZ+ozkS+HQBz48ziCUuZHF/S80nVYvOmn/7cWp1Mg=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			czz1Fcl35gTYAGczH9uL9WxxIc/UnlK2oTnpM8+gdCY=
+			S2yIe/UxztlKbY5azfDQpx0rrDW2q7YPt7awq7sOC3w=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1xyfsTG5EPis6q6xzKjwUhRhKo0ky748plEeNdGMYiA=
+			pD3u5Hx8dT/cPCv5zJBSok2kEJfrPwuJqpYxi4Y5A0I=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WBGK1sgpQaDMN7zQi4Vx/vPfVSTxJqAlQ3DRBcFndSY=
+			Y9pBeBTjLvwyRfdflZnAUpvjMms4PF805a9iVQapuzw=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -526,28 +526,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WBGK1sgpQaDMN7zQi4Vx/vPfVSTxJqAlQ3DRBcFndSY=
+			Y9pBeBTjLvwyRfdflZnAUpvjMms4PF805a9iVQapuzw=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SS8lBu3L94I6J2K0xXntMbM8d2OROjqfa7KBePEYIy8=
+			G9DFopMlOSzw9HwXYobJDycBhJ++qyZR/LF1KyygZiQ=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1xyfsTG5EPis6q6xzKjwUhRhKo0ky748plEeNdGMYiA=
+			pD3u5Hx8dT/cPCv5zJBSok2kEJfrPwuJqpYxi4Y5A0I=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IXfztOVt886OO4OPnjNUOcnkthSppYLKvBpw3OZfYOc=
+			WLsIgnitPVoGSgvKzrwWTThV3aHO5cU7uEtxaW5vl0w=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -561,14 +561,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IXfztOVt886OO4OPnjNUOcnkthSppYLKvBpw3OZfYOc=
+			WLsIgnitPVoGSgvKzrwWTThV3aHO5cU7uEtxaW5vl0w=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9nzVwzx/mGhpqTfegOJ3Cn+PMggwOJOX8sar3D4XpBQ=
+			fAgGqxw+QJynZPO/vx5xkfuCukPsAuOryiULnppKtIQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

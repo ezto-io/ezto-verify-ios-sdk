@@ -121,7 +121,7 @@
 		</dict>
 		<key>Frameworks/iProov.framework/iProov</key>
 		<data>
-		Y1LVry23vDA8Lk5RW/BsfdD74Sg=
+		af7pUmL72CukDXftnoBcFLFuCwg=
 		</data>
 		<key>Frameworks/iProov.framework/iProov.plist</key>
 		<data>
@@ -201,15 +201,15 @@
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		bBW+32HKbM+TqgJ24PJkEfyjE4w=
+		kd9IFirKvl72gpe4aXTYBSO9f+M=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		lM5y1R/V+btZYTQlz1v/Ga/N4u8=
+		laRb56uNznqbsI3KLNnEvqAp0NY=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		3qPnNNLMylmHhfgiLIAsQc+R6io=
+		zhC4floyjD+cyjmTv4v3D6gytxc=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -217,11 +217,11 @@
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		3qPnNNLMylmHhfgiLIAsQc+R6io=
+		zhC4floyjD+cyjmTv4v3D6gytxc=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9FEzIuMdHGESlDgiuHRUUw9Ampc=
+		NFu1I7e3jsZYFpvMolaXu+iGG6Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -361,7 +361,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bARaqiMwxrDMafRfV7T6b1kzQSSXl1YlMkWjFDtnGgQ=
+			ISPILWVLBbPIcweXmYa1X8wXlm9/TKUIuBdV3EhNyg4=
 			</data>
 		</dict>
 		<key>Frameworks/iProov.framework/iProov.plist</key>
@@ -467,21 +467,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Tegwxv3IaV/C/8P/tUtXcxh5gWJxAUpKGC9s8ofbmc=
+			eugWXooQL1fksMRAEgsHin75ZONYEL2cj/wpVoDqxv0=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1xyfsTG5EPis6q6xzKjwUhRhKo0ky748plEeNdGMYiA=
+			pD3u5Hx8dT/cPCv5zJBSok2kEJfrPwuJqpYxi4Y5A0I=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OExXtMNRIadMAh0dDa47nWv5QAsT1+6Xyc1Fepd8Id0=
+			QL37lTFGuqi8pvY8lvyaHI9fKPneyPsPhCz6IBWpYmg=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -495,14 +495,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OExXtMNRIadMAh0dDa47nWv5QAsT1+6Xyc1Fepd8Id0=
+			QL37lTFGuqi8pvY8lvyaHI9fKPneyPsPhCz6IBWpYmg=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gtnvZ10qhTRZUsrSfVFMDEkODqt1r7kGy2zOddQTBqs=
+			26GU7+BAtVkMhPEzDdD1oE8NJWyXDnacCC7QXSa1kWM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
