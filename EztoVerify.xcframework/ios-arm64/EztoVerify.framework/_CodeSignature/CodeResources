@@ -4,169 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/iProov.framework/Assets.car</key>
-		<data>
-		9PA06uAIOpvJHzLnNdjuYQjY6WE=
-		</data>
-		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Dbh1n5xijXsCjy+3c/bhWjL4cyI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/IProovViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dD86MZ+Dv0C0Dfhw5FwX5vPJ4yI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/V/Tcz19DU0bRKeYdA5am54dx84=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/PausedOverlayViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			781HNkTyZ5YO7sKVX44SeGK6wjI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/dyV-2X-wmS-view-kYa-1S-rr9.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6gVvPKKqlCx1SflpvMipOlz+ZJk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/Info.plist</key>
-		<data>
-		eOISp0id/NfyQ+KfOgx9YVHG28Q=
-		</data>
-		<key>Frameworks/iProov.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		QjwxbSjHFkcr/6+myMP9Wkq5zl4=
-		</data>
-		<key>Frameworks/iProov.framework/_CodeSignature/CodeResources</key>
-		<data>
-		CQKF2XKsBFzIfnZgrn0VO0fUiks=
-		</data>
-		<key>Frameworks/iProov.framework/cy-GB.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			r/UrsrfMjEyjCXInEYE27WyNcvI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/de.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uU9O/dZ8C2zF9NQpbH85QmaXGe0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Y/2RvcatDFk/VoXYbgrLQzoW6yI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/es-CO.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/+4KrCha8nvvbLHgVINi2yhA/Mk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9OGwfZoP9+YV9HyDbNHDCwZkEWc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hd9iGhYYsZ5X9L10IKFsAt1mhnA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/iProov</key>
-		<data>
-		af7pUmL72CukDXftnoBcFLFuCwg=
-		</data>
-		<key>Frameworks/iProov.framework/iProov.plist</key>
-		<data>
-		gbeBrS5qhamUXcmoQ8YvN0niVwg=
-		</data>
-		<key>Frameworks/iProov.framework/it.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XcdXMoKIKX2qAwL9zCzXm57IY+M=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/nl.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bSyOU2fF76dnDSdfrcmXqhnLQ4k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/pt-BR.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zLidrBMHoiV5/n6GqUR76IyBFQo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/pt.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			flvhUabOPB52IKAvAH+cA5ku584=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/libEztoVerifyCore.a</key>
-		<data>
-		Jro2l12pCA/jtB4qbAdgdoNeSqQ=
-		</data>
 		<key>Headers/EztoVerify-Swift.h</key>
 		<data>
 		mStwIiajJ8gtJxIJflcyP0CJwWo=
@@ -201,15 +38,15 @@
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		kd9IFirKvl72gpe4aXTYBSO9f+M=
+		DVr4/EBb8zKFaVBbidwjo6XTT+4=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		laRb56uNznqbsI3KLNnEvqAp0NY=
+		0gqPukkZSDpBW5G0MkIDfll3MKg=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		zhC4floyjD+cyjmTv4v3D6gytxc=
+		YFf/PJyXroyEY3i9j4Ezq82E2Vg=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -217,11 +54,11 @@
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		zhC4floyjD+cyjmTv4v3D6gytxc=
+		YFf/PJyXroyEY3i9j4Ezq82E2Vg=
 		</data>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		NFu1I7e3jsZYFpvMolaXu+iGG6Y=
+		t83J6VmTY86DySGsQbOFz2SPJlA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -230,190 +67,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/iProov.framework/Assets.car</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XW72WU/x6l4CB+ILJYYXMGvPXuWk5NigTaKtqrCHMFM=
-			</data>
-		</dict>
-		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7EqsCnIwNrSl9MgGAbWsshX/4QYjFjKz+k4rzcYV9C8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/IProovViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4vyj+Rfi63qgr2L9hHkhtbgtBvA+vsjytAVSng9vxEQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			V8+HITon5M52x1nVAguXEwYpDBDVQodWuFighoQjABg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/PausedOverlayViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			k+WsU7OQFN0UbjLnM9xS8L1G7csuSkG1OY7DPgorMb8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/dyV-2X-wmS-view-kYa-1S-rr9.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PQ6KSemLQJwndgziqF77Ni6OCIyqtUhdI0POi9GFzvg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			k4Nr1XwhGu4HkCH00Sm7WcHap8ENRbBTg/R0FUJPfYU=
-			</data>
-		</dict>
-		<key>Frameworks/iProov.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VF2gZ8Ix/MCEqBSdckDQWxJslHts0ei3AgH+hkRoYGU=
-			</data>
-		</dict>
-		<key>Frameworks/iProov.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rDGiJf2zhl12tYmHa2XuKSe6W887nH3/kylXhhZhsKM=
-			</data>
-		</dict>
-		<key>Frameworks/iProov.framework/cy-GB.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ma2lFzt6jTFDAcqC66R+yO67xxTyBHgnIqrOGdFOBws=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/de.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6zUwYJZIYeC83vJ9iEe2d5s2bYSUV8Pi4/SoxSYveDk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9w4LI4ORzgOV1oABL2jKCGefjYa0ZUemhM3VB37nE/I=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/es-CO.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			S1ZvwQp+wER1Psz0QS/mAaoTPPNoRSamqCbjGaJGFNA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yrd9sL74ZpbRi+hMbwqExePDc/aDSEVuG1zPJmCDeFQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FNqlMTrLIL+pggTy4W2l1ezLcVVd9uuf10Jm3NwUH+4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/iProov</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ISPILWVLBbPIcweXmYa1X8wXlm9/TKUIuBdV3EhNyg4=
-			</data>
-		</dict>
-		<key>Frameworks/iProov.framework/iProov.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1zWB+3taVexjMzuEMk8VAmBSigR162RAVj8rCZ/Z1Mw=
-			</data>
-		</dict>
-		<key>Frameworks/iProov.framework/it.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ItBC6MuWOX1CMvl0AqOKPnMyXn6nta9xfGGaD0b6Kd0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/nl.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3ut4aFai6FUob7yTCD5Pk5l8hoCnWwy2U2l7zW+mTmg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/pt-BR.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FFNgBLesNRopvYUM/FMECIZn6FTmAnELYbnXRTn/nrs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/iProov.framework/pt.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xCOESp0PCOTw5PpeIn9NEUlS/NN0iKvXqRvDg9AQcCQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/libEztoVerifyCore.a</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oK2cjkm6VWzKHfFJpKQWQRe8gEoJ64zjmOvU8C0f6mo=
-			</data>
-		</dict>
 		<key>Headers/EztoVerify-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -467,21 +120,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eugWXooQL1fksMRAEgsHin75ZONYEL2cj/wpVoDqxv0=
+			rFhJSdBnU3vj2OogkxrDrh7NMczFzQdn/AN0Uf0HLWU=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pD3u5Hx8dT/cPCv5zJBSok2kEJfrPwuJqpYxi4Y5A0I=
+			UIcDgkspj7zHoUOg9/mnerF4mq+KwzPtONSFZuZdSpo=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QL37lTFGuqi8pvY8lvyaHI9fKPneyPsPhCz6IBWpYmg=
+			bmYElShc69SFpS4W9T/elPdUZ4dKdrXnwu1NBp+/F7g=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -495,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QL37lTFGuqi8pvY8lvyaHI9fKPneyPsPhCz6IBWpYmg=
+			bmYElShc69SFpS4W9T/elPdUZ4dKdrXnwu1NBp+/F7g=
 			</data>
 		</dict>
 		<key>Modules/EztoVerify.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			26GU7+BAtVkMhPEzDdD1oE8NJWyXDnacCC7QXSa1kWM=
+			+AetglAiY4xubfmWGcOfAHqyckCSkLtTLYvrAZZ2GUU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
